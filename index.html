@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project: Your Own Cheat Sheet</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./resources/css/styles.css">
+</head>
+<body>
+  
+  <!-- <nav> contains the main navigation functionality for the page -->
+  <nav>
+    <ul>
+      <li><a href="#semantic-html">HTML Semantic Elements</a></li>
+      <li><a href="#html-tables">HTML Table Elements</a></li>
+      <li><a href="#html-table-attributes">HTML Table Attributes</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <!-- <header> represents a group of introductory content. If it is a child of <body>  -->
+  <header>
+    <p class="semi-bold">Web Development Foundations</p>
+    <h1>Challenge Project: <br/>Build Your Own Cheat Sheet</h1>
+    <div class="author">
+      <p>Armand van der Merwe</p>
+      <figure>
+        <img src="./resources/images/Armand.webp" alt="Armand standing in a suit">
+      </figure>
+      <p><time datetime="2023-09-21">September 21, 2023</time></p>
+    </div>
+  </header>
+
+  <!-- <main> is for content unique to this page. Use <main> only once per page. -->
+  <main>
+
+    <!-- Semantic HTML Section -->
+    <section id="semantic-html">
+      <h2>HTML Semantic Elements</h2>
+      <!-- HTML Table -->
+      <table>
+        <thead>
+          <tr>
+            <th colspan="3">HTML Semantic Elements</th>
+          </tr>
+          <tr>
+            <th>Element</th>
+            <th>Name</th>
+            <th>Short Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>&lt;header&gt;</code></td>
+            <td>Header Element</td>
+            <td>Represents introductory content, typically a group of introductory or navigational aids</td>
+          </tr>
+          <tr>
+            <td><code>&lt;nav&gt;</code></td>
+            <td>Navigation Element</td>
+            <td>Represents a section of a page whose purpose is to provide navigation links, either within or to other documents</td>
+          </tr>
+          <tr>
+            <td><code>&lt;main&gt;</code></td>
+            <td>Main Element</td>
+            <td>Represents the dominant content of the <code>&lt;body&gt;</code> of a document</td>
+          </tr>
+          <tr>
+            <td><code>&lt;section&gt;</code></td>
+            <td>Section Element</td>
+            <td>Represents a generic standalone section of a document, which doesn't have a more specific semantic element to represent it. Sections should always have a heading, with very few exceptions.</td>
+          </tr>
+          <tr>
+            <td><code>&lt;article&gt;</code></td>
+            <td>Article Element</td>
+            <td>Represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). Examples include: a forum post, a magazine or newspaper article, or a blog entry, a product card, a user-submitted comment, an interactive widget or gadget, or any other independent item of content</td>
+          </tr>
+          <tr>
+            <td><code>&lt;aside&gt;</code></td>
+            <td>Aside Element</td>
+            <td>Represents a portion of a document whose content is only indirectly related to the document's main content. Asides are frequently presented as sidebars or call-out boxes</td>
+          </tr>
+          <tr>
+            <td><code>&lt;footer&gt;</code></td>
+            <td>Footer Element</td>
+            <td>A <code>&lt;footer&gt;</code> typically contains information about the author of the section, copyright data or links to related documents</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+      
+    <!-- HTML Table Elements Section -->
+    <section id="html-tables">
+      <h2>HTML Table Elements</h2>
+      <!-- HTML Table -->
+      <table>
+        <thead>
+          <tr>
+            <th colspan="3">Table Elements</th>
+          </tr>
+          <tr>
+            <th>Element</th>
+            <th>Name</th>
+            <th>Short Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>&lt;table&gt;</code></td>
+            <td>Table</td>
+            <td>Represents tabular data in table comprised of rows and columns of cells containing data</td>
+          </tr>
+          <tr>
+            <td><code>&lt;thead&gt;</code></td>
+            <td>Table Head</td>
+            <td>A set of rows defining the head of the columns of the table</td>
+          </tr>
+          <tr>
+            <td><code>&lt;tbody&gt;</code></td>
+            <td>Table Body</td>
+            <td>Encapsulates a set of table rows indicating that they comprise the body of the table</td>
+          </tr>
+          <tr>
+            <td><code>&lt;tfoot&gt;</code></td>
+            <td>Table Foot</td>
+            <td>Defines a set of rows summarizing the columns of the table</td>
+          </tr>
+          <tr>
+            <td><code>&lt;tr&gt;</code></td>
+            <td>Table Row</td>
+            <td>Defines a row of cells in a table, incl. <code>&lt;td&gt;</code> (data cell) and <code>&lt;th&gt;</code> (header cell)</td>
+          </tr>
+          <tr>
+            <td><code>&lt;th&gt;</code></td>
+            <td>Table Header</td>
+            <td>Defines a cell as the header of a group of table cells</td>
+          </tr>
+          <tr>
+            <td><code>&lt;td&gt;</code></td>
+            <td>Table Data</td>
+            <td>Defines a cell that contains data</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- HTML Table Attributes Section-->
+    <section id="html-table-attributes">
+      <h2>HTML Table Attributes</h2>
+      <!-- HTML Table -->
+      <table>
+        <thead>
+          <tr>
+            <th colspan="3">Table Attributes</th>
+          </tr>
+          <tr>
+            <th>Attribute</th>
+            <th>Name</th>
+            <th>Short Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>colspan=&quot;2&quot;</code></td>
+            <td>Column Span</td>
+            <td>Contains an integer value that indicates how many columns a cell extends e.g. 2</td>
+          </tr>
+          <tr>
+            <td><code>rowspan=&quot;4&quot;</code></td>
+            <td>Row Span</td>
+            <td>Contains an integer value that indicates how many rows a cell extends e.g. 4</td>
+          </tr>
+          <tr>
+            <td><code>scope=&quot;col&quot;</code></td>
+            <td>Header Scope: Column</td>
+            <td>Defines the cells that the header (defined in the <code>&lt;th&gt;</code>) element relates to all cells of the column it belongs to</td>
+          </tr>
+          <tr>
+            <td><code>scope=&quot;row&quot;</code></td>
+            <td>Header Scope: Row</td>
+            <td>Defines the cells that the header (defined in the <code>&lt;th&gt;</code>) element relates to all cells of the row it belongs to</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+  </main>
+
+  <!-- <footer> represents a group of end content for a page -->
+  <footer>
+    <!-- The <address> element can only be used to represent the contact information -->
+    <address id="contact">
+      <h3 class="semi-bold">You can reach Armand van der Merwe below:</h3>
+      <ul>
+        <li>Contact me by: <a href="mailto:armand@armandvandermerwe.com" target="_blank" >Email</a></li>
+        <li>Contact me by: <a href="tel:+27722855596" target="_blank">Phone</a></li>
+        <li>Locate me: <a href="https://www.google.com/maps/place/Benoni/@-26.1529884,28.3029255,12z/data=!3m1!4b1!4m6!3m5!1s0x1e953eea59df60f3:0x619c7f175429a6e0!8m2!3d-26.1510854!4d28.3695699!16zL20vMDJoMmo5?entry=ttu" target="_blank">Benoni, South Africa</a></li>
+      </ul>
+    </address>
+    <p>
+      <small>&copy; Copyright 2023 by Armand van der Merwe | All rights reserved.</small>
+    </p>
+  </footer>
+  
+</body>
+</html>
